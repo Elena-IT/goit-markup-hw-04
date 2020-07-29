@@ -11,62 +11,63 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
-    <div class="site-container">
-      <!--Шапка сайта-->
-      <header class="page-header">
-        <div class="header-container">
-          <nav class="nav-container">
-            <a href="index.html" aria-label="лого" class="logo-link">
-              <img src="./images/header/WebStudio.png" alt="webstudio" />
-            </a>
+    <!--Шапка сайта-->
+    <header class="page-header">
+      <div class="container">
+        <nav class="nav-container">
+          <a href="index.html" aria-label="лого" class="logo-link">
+            <img src="./images/header/WebStudio.png" alt="webstudio" />
+          </a>
+          <ul class="site-nav list">
+            <li class="nav-link-item list">
+              <a class="nav-link" href="index.html">
+                <p class="nav-link-text">Студия</p>
+              </a>
+            </li>
+            <li class="nav-link-item list">
+              <a class="nav-link link current" href="portfolio.html">
+                <p class="nav-link-text link current">Портфолио</p>
+              </a>
+            </li>
+            <li class="nav-link-item list">
+              <a class="nav-link" href=" ">
+                <p class="nav-link-text">Контакты</p>
+              </a>
+            </li>
+          </ul>
+          <div class="site-nav-div">
             <ul class="site-nav">
-              <li class="nav-link-item list">
-                <a class="nav-link" href="index.html">
-                  <p class="nav-link-text">Студия</p>
-                </a>
+              <li class="contact-list-item list">
+                <img
+                  class="contact-data"
+                  src="./images/header/Vector.svg"
+                  alt="позвонить"
+                />
+                <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
               </li>
-              <li class="nav-link-item list">
-                <a class="nav-link link current" href="portfolio.html">
-                  <p class="nav-link-text link current">Портфолио</p>
-                </a>
-              </li>
-              <li class="nav-link-item list">
-                <a class="nav-link" href=" ">
-                  <p class="nav-link-text">Контакты</p>
-                </a>
+              <li class="contact-list-item list">
+                <img
+                  class="contact-data"
+                  src="./images/header/envelope.svg"
+                  alt="написать"
+                />
+                <a class="contact-data" href="mailto:info@devstudio.com">
+                  info@devstudio.com</a
+                >
               </li>
             </ul>
-            <div class="site-nav-div">
-              <ul class="site-nav">
-                <li class="contact-list-item list">
-                  <img
-                    class="contact-data"
-                    src="./images/header/Vector.svg"
-                    alt="позвонить"
-                  />
-                  <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
-                </li>
-                <li class="contact-list-item list">
-                  <img
-                    class="contact-data"
-                    src="./images/header/envelope.svg"
-                    alt="написать"
-                  />
-                  <a class="contact-data" href="mailto:info@devstudio.com">
-                    info@devstudio.com</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </nav>
-        </div>
-      </header>
+          </div>
+        </nav>
+      </div>
+    </header>
 
-      <!--Products-navigation-->
-      <div class="products-nav-section">
+    <!--Products-navigation-->
+    <section class="products-nav-section">
+      <div class="container">
         <h1 hidden>Проекты</h1>
-        <ul class="products-list">
+        <ul class="products-list list">
           <li class="products-button">
             <button type="button" class="pro-button">Все</button>
           </li>
@@ -84,10 +85,12 @@
           </li>
         </ul>
       </div>
+    </section>
 
-      <!--Products-->
-      <div class="products-list-container">
-        <ul class="products-list-main">
+    <!--Products-->
+    <section class="products-list-section">
+      <div class="container">
+        <ul class="products-list-main list">
           <li class="product-item">
             <a class="product-link" href=" " aria-label="Проект-1">
               <img src="./images/projects/project1.png" alt="проект1" />
@@ -98,8 +101,8 @@
                 Технокряк это современная площадка распространения коронавируса.
                 Компании используют эту платформу для цифрового шпионажа и атак
                 на защищённые сервера конкурентов.
-              </p></a
-            >
+              </p>
+            </a>
           </li>
           <li class="product-item">
             <a class="product-link" href=" " aria-label="Проект-2">
@@ -175,13 +178,15 @@
           </li>
         </ul>
       </div>
+    </section>
 
-      <!--Контакты-->
-      <footer>
-        <section class="contacts-section">
+    <!--Контакты-->
+    <footer class="contacts-sec">
+      <div class="container">
+        <div class="contacts">
           <h2 hidden>Контакты</h2>
           <div class="contacts-div1">
-            <a href="index.html" aria-label="лого">
+            <a href="index.html" aria-label="лого" class="footer-logo">
               <img src="./images/header/WebStudio.png" alt="webstudio" />
             </a>
 
@@ -194,7 +199,7 @@
                   <p class="address-item">г. Киев, пр-т Леси Украинки, 26</p>
                 </a>
               </address>
-              <ul>
+              <ul class="list">
                 <li class="contact-list-item">
                   <a class="contact-data" href="tel: ">+38 096 111 11 11</a>
                 </li>
@@ -206,8 +211,7 @@
               </ul>
             </div>
           </div>
-
-          <div class="join-us-div">
+          <div class="contacts1">
             <p>Присоединяйтесь</p>
             <ul class="joinus">
               <li class="social-link">
@@ -224,8 +228,8 @@
               </li>
             </ul>
           </div>
-        </section>
-      </footer>
-    </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
