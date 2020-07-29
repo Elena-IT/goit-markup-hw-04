@@ -128,6 +128,7 @@ color: #212121;
 }
 .current {
   color:#2196F3;
+  padding-bottom: 0;
 }
 
 .nav-link .current::after {
@@ -139,7 +140,6 @@ background-color: #2196F3;
 border-radius: 2px;
 text-align: center;
 margin-top: 28px;
-
 }
 
 .contact-list-item {
@@ -245,6 +245,22 @@ margin-top: 28px;
   .about-image-icon:last-child {
     margin-right: 0;
   }
+
+  .about-image-icon::before {
+  background-color: #111319;
+  background-image: url("../images/about/Rectangle.png");
+  background-repeat: no-repeat;
+  background-size: cover;}
+    /* 
+    position: absolute;
+    width: 270px;
+    height: 120px;
+    left: 1115px;
+    top: 774px;
+    background-color: #F5F4FA;
+    border-radius: 4px;*/
+    }
+  
   .image {
     margin-top: 0;
     margin-bottom: 55px; 
@@ -384,11 +400,30 @@ margin-bottom: 95px;
   }
   .social-link-list {
     display: flex;
+    align-items: center;
   }
+  
   .social-link:hover,
   .social-link:focus {
   color: #2196f3
   ;}
+  .social-link::before {
+  content: "";
+  width: 60px;
+  height: 1px;
+  margin-right: 40px;
+  background: #303030;
+}
+  /*.social-link {
+     background-image: url(../images/Socials/Instagram.svg);
+     background-position: center;
+     position: absolute;
+      width: 44px;
+      height: 44px;
+      left: 515px;
+      top: 2779px;*/
+
+  }
 
  /* .clients-container {
   max-width: 1200px;
