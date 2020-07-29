@@ -128,7 +128,10 @@ color: #212121;
 }
 .current {
   color:#2196F3;
-  padding-bottom: 0;
+ 
+}
+.nav-link .current {
+ padding-bottom: 0;
 }
 
 .nav-link .current::after {
