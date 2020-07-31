@@ -419,6 +419,18 @@ margin-bottom: 95px;
   margin-right: 40px;
   background: #303030;
 }
+.social-list_link-item:hover .social-list_link-item-svg {
+  fill: #ffffff;
+}
+.social-list_link-item-svg {
+ width: 44px;
+ height: 44px;
+}
+.social-list_link-item:hover {
+  background-color:  #2196F3;
+}
+
+}
   /*.social-link {
      background-image: url(../images/Socials/Instagram.svg);
      background-position: center;
