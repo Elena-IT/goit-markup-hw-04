@@ -492,7 +492,8 @@ margin-bottom: 95px;
   }
   .social-link-list {
     display: flex;
-    align-items: center;
+    align-content: center;
+    padding-left: 30px;
   }
 .social-list_link-item {
     display: inline-flex;
@@ -501,11 +502,15 @@ margin-bottom: 95px;
     width: 44px;
     height: 44px;
     border-radius: 50%;
-}
+ }
   .social-link:hover,
   .social-link:focus {
   color: #2196f3
   ;}
+
+  .social-link {
+    margin-right: 10px;
+  }
   /*.social-link::before {
   content: "";
   width: 60px;
