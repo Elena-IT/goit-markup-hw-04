@@ -158,11 +158,13 @@ color: #212121;
   list-style: none;
   text-decoration: none;
 }
-
+.contact-list-item {
+  fill: #757575;
+}
 .contact-list-item:hover,
-.contact-list-item .contact-svg:focus
+.contact-list-item:focus
  {
-  color: color: #2196f3;
+  color: #2196f3;
 }
 .contact-data {
   list-style: none;
@@ -176,6 +178,10 @@ color: #212121;
 .contact-data:hover,
 .contact-data:focus {
   color: #2196f3;
+}
+.contact-data-icon:hover,
+.contact-data-icon:focus {
+  fill: #2196f3;
 }
 
 .list {
@@ -727,6 +733,11 @@ border-radius: 4px;*/
   .address-item-link {
    list-style: none;
    text-decoration: none
+  }
+  .join-text {
+    color: white;
+    font-weight: bold;
+    padding-left: 12px;
   }
   
   .pro-button:hover,
