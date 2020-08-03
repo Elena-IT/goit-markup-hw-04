@@ -587,17 +587,23 @@ letter-spacing: 0.03em;
 color: #212121;
 
  }
-.client-icon {
+.client-icon .client-icon-svg {
    fill:#AFB1B8;
 }
-.client-icon:hover, 
+
+.client-icon-svg:hover,
 .client-icon-svg {
-  fill:  #2196f3}
+  fill: #2196f3;
+}
+
+
+/*.client-icon:hover, 
+.client-icon-svg {
+  fill:  #2196f3}*/
  
-  .client-icon:hover,
+/* .client-icon:hover,
  .client-icon:focus {
-color: #2196f3
-  ;}
+color: #2196f3;}*/
 
  .border{
 max-width: 170px;
