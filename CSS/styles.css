@@ -596,6 +596,9 @@ color: #212121;
   fill: #2196f3;
 }
 
+.customers-list-item-link:hover,
+.customers-list-item-link:focus {
+  border-color: #2196f3;}
 
 /*.client-icon:hover, 
 .client-icon-svg {
